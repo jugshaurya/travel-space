@@ -7,7 +7,8 @@
 
 ## Server
 
-- schema-first development (agree on a schema before you begin implementing your API.)(think of it like: - what our client is going to do with our app?)
+- `schema-first development` (agree on a schema before you begin implementing your API.)(think of it like: - what our client is going to do with our app?)
+- A `data source` is any database, service, or API that holds the data you use to populate your schema's fields.
 
 #### Responsibilities:
 
@@ -16,3 +17,4 @@
 - Log in the user and if logged in:
   - Book a launch
   - Cancel a previously booked launch
+- extend `DataSource` to connect both a REST API and a SQL database to Apollo Server.
