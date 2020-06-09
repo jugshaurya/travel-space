@@ -9,6 +9,8 @@
 
 - `schema-first development` (agree on a schema before you begin implementing your API.)(think of it like: - what our client is going to do with our app?)
 - A `data source` is any database, service, or API that holds the data you use to populate your schema's fields.
+- A `resolver` is a function that's responsible for populating the data for a single field in your schema.
+- The resolver for a parent field always executes before the resolvers for that field's children.
 
 #### Responsibilities:
 
