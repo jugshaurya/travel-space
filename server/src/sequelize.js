@@ -65,5 +65,6 @@ module.exports.createStore = () => {
     userId: SQL.INTEGER,
   });
 
+  db.sync();
   return { users, trips };
 };
